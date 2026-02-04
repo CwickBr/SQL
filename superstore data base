@@ -27,8 +27,7 @@ VALUES
     
     SELECT *
     FROM superstore
-    ORDER BY price, category ASC
-    ;
+    ORDER BY price, category ASC;
     
     SELECT SUM(price)
     FROM superstore;
